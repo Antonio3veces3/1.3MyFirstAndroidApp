@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyFirstAndroidApp</string>
+    <string name="form_instruction">Llena todos los campos</string>
+
+    <!--Main activity-->
+    <string name="main_input_name">Nombre</string>
+    <string name="main_input_age">Edad</string>
+    <string name="main_get_button">Obtener numero</string>
+    <!--Main activity-->
+
+    <!--DescriptionActivity-->
+    <string name="profileDescription">Cambia tu destino con numeros de la suerte</string>
+    <!--DescriptionActivity-->
+</resources>

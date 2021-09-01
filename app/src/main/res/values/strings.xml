@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">MyFirstAndroidApp</string>
+    <string name="form_instruction">Please, enter all data</string>
+
+    <!--Main activity-->
+    <string name="main_input_name">Name</string>
+    <string name="main_input_age">Age</string>
+    <string name="main_get_button">Get number</string>
+    <!--Main activity-->
+
+    <!--DescriptionActivity-->
+    <string name="profileDescription">Change your destiny with lucky numbers</string>
+    <!--DescriptionActivity-->
+</resources>

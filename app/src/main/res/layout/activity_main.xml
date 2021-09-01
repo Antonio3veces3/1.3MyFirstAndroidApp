@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/trebol"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lucky Numbers"
+        android:textAllCaps="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green_10"
+        android:letterSpacing="0.1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profileDescription"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@color/green_10"
+        android:padding="10sp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/main_input_name"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/green_50"
+        android:textColor="@color/green_20"
+        android:layout_margin="15dp"
+        android:drawableLeft="@mipmap/usr"
+        android:maxLines="1"
+        android:singleLine="true"
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="@string/main_input_age"
+        android:inputType="number"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        android:textColorHint="@color/green_50"
+        android:textColor="@color/green_20"
+        android:layout_margin="10dp"
+        android:drawableLeft="@mipmap/age"
+        />
+
+    <Button
+        android:id="@+id/buttonGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_get_button"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green_10"
+        android:letterSpacing="0.2"
+        android:textSize="13dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>
